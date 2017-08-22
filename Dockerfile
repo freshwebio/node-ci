@@ -1,4 +1,4 @@
-FROM circleci/node:8.4.0
+FROM circleci/node:8.4.0-browsers
 # Add the Cloud SDK distribution URI as a package source
 RUN sudo apt-get update
 RUN sudo npm install -g mocha
